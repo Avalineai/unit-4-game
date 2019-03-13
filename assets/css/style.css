@@ -1,0 +1,23 @@
+.crystal-image, .pinkcrystal-image, .bluepinkcrystal-image,.whitecrystal-image {
+    width: 250px;
+    height: 300px;
+}
+
+.recordsection {
+    display: flex;
+    flex-direction: row;
+}
+
+.crystalsection {
+    display: flex;
+    flex-direction: row;
+}
+
+h1, h4, p {
+    padding: 10px;
+    color: #9f9fdf;
+}
+
+body {
+    background-color: #060613;
+}
