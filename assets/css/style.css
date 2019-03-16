@@ -1,23 +1,47 @@
-.crystal-image, .pinkcrystal-image, .bluepinkcrystal-image,.whitecrystal-image {
+.crystal-image, .pinkcrystal-image, .bluepinkcrystal-image,.whitecrystal-image{
     width: 250px;
     height: 300px;
+    padding: 10px;
 }
 
 .recordsection {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+
 }
 
 .crystalsection {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
-h1, h4, p {
-    padding: 10px;
+p {
+    color: #9f9fdf;
+    margin: 10px;
+}
+h1, h2, #total-score {
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    color: #9f9fdf;
+    border: 1px solid #8533ff;
+}
+h4 {
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    color: #9f9fdf;
+    border: 1px solid #8533ff;
+}
+
+
+#sectioninstr {
+    margin: 10px;
     color: #9f9fdf;
 }
-
 body {
     background-color: #060613;
+
 }
