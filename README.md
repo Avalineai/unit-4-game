@@ -1,4 +1,4 @@
-#CrystalsCollector Game
+CrystalsCollector Game
 
 Watch the demo.
 
